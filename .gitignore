@@ -1,10 +1,4 @@
 # Folders
-11.MEAN STACK/server/node_modules
-13.MERN STACK/server/node_modules
-7.TypeScript/server/node_modules
-8.Angular9/my-app-nine/node_modules
-12.Reactjs/my-app/node_modules
-9.Nodejs/API-REST/node_modules
 
 # Logs
 logs
@@ -136,4 +130,3 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
->>>>>>> 4e8224f7db59240525c44ea886433626d49a1cc5
