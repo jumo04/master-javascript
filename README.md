@@ -21,8 +21,8 @@
 
 <h3 align="center">Curso Master en Javascript</h3>
 
-  <p align="center">
-    Este reposito contiene toda la informacion impartida en el curso de master en javascript, con las versiones que se tienen en el curso, el curso trata de tocar los temas de servidor como del cliente creando un stack full donde se crea el backend desde 0 y se crea el frontend usando frameworks como angular y librerias como react.js.
+  <p align="center"> 
+    Este reposito contiene toda la informacion impartida en el curso de master en javascript, con las versiones que se tienen en el curso, el curso trata de tocar los temas de servidor como del cliente creando un stack full donde se crea el backend desde 0 y se crea el frontend usando frameworks como angular y bootstrap  y librerias como react.js y jquery
     <br />
     <a href="https://github.com/jumo04/master-javascript"><strong>Explora los docs»</strong></a>
     <br />
