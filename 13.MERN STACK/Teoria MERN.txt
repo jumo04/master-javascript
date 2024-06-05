@@ -1,0 +1,9 @@
+MERN: MongoDb, Express, React, Nodejs
+
+Es lo mismo que MEAN pero con React
+
+react no trae rutas por defecto entonces toca instalarlas
+
+para decodificar el token usamos jwt, pero su funcion decode
+con npm i jwt-decode
+

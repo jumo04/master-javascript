@@ -1,0 +1,4 @@
+Versions 
+Node: 12.14.1
+npm: 6.4.1
+Angular: 9.0.1

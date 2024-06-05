@@ -1,0 +1,121 @@
+#####################################  ANGULAR 9+  #############################################
+
+Angular es un framework de código abierto hecho en javascript para aplicaciones web construido 
+con typescript, creado por google y se utiliza para crear aplicaciones web de una solo pagina 
+(SPA) single page aplications
+
+su objetivo es aumentar las aplicaciones basadas en navegador con capacidade de MVC, en un
+esfuezo para hacer que el desarrollo y la producción sea más fácil.
+
+    CARACTERISTICAS:
+
+        - Puedes crear tus propias etiquetas.
+
+        - Los valores de las etiquetas pueden ser variables, configurado manualmente.
+
+        - Es posible construir aplicaciones móviles nativas combinando Angular con ionic, 
+          navitescript y reactnative.
+        
+        - Seguridad y ocultamiento por capas de archivos importantes: todo esta oculto
+
+        - No requiere el uso de PHP paa conectarnos del lado del servidor
+
+        - Aplicaiones web dinámicas y progresivas: Permite utilizar las capacidades modernas de 
+          las aplicaciones sobre plataforma web para ofrecer experiencias similares en 
+          aplicaciones de escritorio. Permitiendo una instalación rápida, en pocos pasos y sin 
+          necesitar una conexión a internet
+
+
+
+MVC en angular Modulo->Componente->Vista
+
+
+siempre se inicia con los modulos
+
+  Modulo: existe un modulo central. fue construido a base de modulos, importa modulos para empezar a trabajar
+          browserModule, permite buscar modulos en angulas
+          NgModule es el modulo raiz
+          AppRoutingModule ruta
+          AppComponent es el componente principal 
+          Los modulos solo se usan en angular 17- de angular 17 en adelante se desplaza modulos y se trabaja con importaciones lineales
+          
+
+  
+
+Decoradores: son funciones que modifican clases de javascript son parecidos a los de spring boot, indican como
+van a funcionar.
+
+las declaraciones son las clases de vista que pertenecen al modulo raiz
+
+las imports o importanciones se importan otros modulos cuyas clases exportadas sean necesarias para las plantillas
+componentes declaradas en este modulo
+
+providers: son los creadores de servicios que este modulo contribuye a la recoleccion global de servicios se vuelve
+accesibles en todas las partes de la aplicacion. esto lo habilitamos cuando invocamos servicios desde una base de datos
+
+exportamos la clase del modulo raiz para importar otros archivos
+
+
+Algunos comandos de CLI
+
+ng generate component <nombre del componente>
+
+las rutas. 
+1. Importar el modulo AppRoutingModule
+import { AppRoutingModule } from './app-routing.module'
+
+2. Agregar a imports AppRoutingModule
+ AppRoutingModule
+
+3. Importar los componentes de pagina ActivatedRoute
+import { ActivatedRoute } from '@angular/router';
+
+4. Agregar en la plantilla principal la etiqueta router-outlet:
+<router-outlet></router-outlet>
+
+
+Los servicios son clases con un objetivo claro que nos facilitan la reutilizacion de codigo, son un tipo
+de modulo que nos va a permitir separa el trabajo con APIS, con HTTP con bases de datos y a traves de la inyeccion de dependencias podemos enviar
+informacion y utilizarla en los principales componentes
+
+para cada componente se necesita un servicio
+
+1. Para hacer peticiones http, el nombre lo especifica, importarlo:
+import { HttpClientModule } from '@angular/common/http';
+
+2. Agregar imports HttpClientModule
+HttpClientModule
+
+3. Importar el modulo HttpClient
+//Import este modulo para conectarnos a cualquier api con peticiones http
+import { HttpClient } from '@angular/common/http';
+
+this.url = "assets/json/salideshow.json";
+
+
+Directivas: Son pequeñas funcionalidades que se utilizan en la vista de angular:
+  *ngFor: es una directiva para realizar bucles en la Vista
+  <div *ngFor="let product of products">
+    <h3> {{ product.name }} </h3>
+  </div>
+  *ngIf: es una directiva para condicionales en la vista
+  <p *ngIf="product.description">
+
+
+Routing" com pasar parametros
+
+Servicios
+
+Formularios: ya tiene un entorno realizado basado en seguridad y proteccion validaciones
+
+1. importar el modulo
+import { FormsModule } from '@angular/forms';
+
+2. importarlo dentro de los imports
+FormsModule
+
+3. importar la clase ngForm en el componente donde se vaya a ejecutar el componente
+import { NgForm } from '@angular/forms';
+
+Two way data Binding: Lo que se defina en la vista, se define en el componente o lo que se define en el componenete se define en la vista.
+

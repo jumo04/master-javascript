@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Este es un fork de la api rest de nodejs, usandolo como servidor para la aplicacion MEAN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Fernando Moreno",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.1",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mkdirp": "^1.0.3",
+    "mongoose": "^5.9.3",
+    "mongoose-unique-validator": "^2.0.3",
+    "nodemon": "^3.1.0",
+    "rimraf": "^3.0.2"
+  }
+}

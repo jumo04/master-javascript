@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursos Javascript</title>
+    <link rel="icon" href="img/icono.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/font-awesome.min.css">
+</head>
+<body>
+    <section id="fotoFondo"></section>
+    <div id="cabezote"  class="content-fluid">
+        <!--
+        /*=============================================
+        = HEADER =
+        =============================================*
+         -->
+        <header class="row">
+            <figure id="logotipo" class="col-lg-2 col-md-3 col-sm-2 col-xs-12">
+                <img src="img/logotipo.png" alt="logotipo">
+            </figure>
+            <div class="col-lg-4 col-md-2 col-sm-1 col-xs-0">
+                <br>
+            </div>
+
+            <div id="btnMovil" class="col-lg-0 col-md-0 col-sm-0 col-xs-12">
+                <span class="fa fa-bars"></span>
+            </div>
+            <nav class="col-lg-6 col-md-7 col-sm-9 col-xs-0">
+                <ul>
+                    <li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#cabezote">Inicio</a></li>
+                    <li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#inicioGaleria">Galeria</a></li>
+                    <li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#inicioMouse">Mouse</a></li>
+                    <li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#inicioScroll">Scroll</a></li>
+                    <li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#inicioFormulario">Formulario</a></li>
+                    <li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#">Boton 6</a></li> 
+                </ul>
+            </nav>
+        </header>
+
+        <!--         
+        /*=============================================
+        =      SLIDESHOW            =
+        =============================================*/
+         -->
+        <div id="slide" class="row">
+            <ul>
+                <li>
+                    <img src="img/slide/slide01.jpg" alt="">
+                    <div class="textoSlide">
+                        <h1>Lorem ipsum</h1>
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/slide/slide02.jpg" alt="">
+                    <div class="textoSlide">
+                        <h1>Lorem ipsum</h1>
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/slide/slide03.jpg" alt="">
+                    <div class="textoSlide">
+                        <h1>Lorem ipsum</h1>
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/slide/slide04.jpg" alt="">
+                    <div class="textoSlide">
+                        <h1>Lorem ipsum</h1>
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                    </div>
+                </li>
+            </ul>
+            <ol id="paginacion">
+                <li item="1"><span class="fa fa-circle"></span></li>
+                <li item="2"><span class="fa fa-circle"></span></li>
+                <li item="3"><span class="fa fa-circle"></span></li>
+                <li item="4"><span class="fa fa-circle"></span></li>
+            </ol>
+
+            <div class="flechas" id="retroceder"><span class="fa fa-chevron-left"></span></div>
+            <div class="flechas" id="avanzar"><span class="fa fa-chevron-right"></span></div>
+        </div>
+
+        
+        <!--/*=============================================
+          GALERIA
+        =============================================*/-->
+
+        <h1 id="inicioGaleria" class="row titulos">
+            <hr>
+                GALERIA DE IMAGENES
+            <hr>
+        </h1>
+
+        <div id="galeria" class="row">
+            <ul>
+                <li class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+                    <img src="img/galeria/01.jpg" alt="">
+                </li>
+                <li class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+                    <img src="img/galeria/02.jpg" alt="">
+                </li>
+                <li class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+                    <img src="img/galeria/03.jpg" alt="">
+                </li>
+                <li class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+                    <img src="img/galeria/04.jpg" alt="">
+                </li>
+                <li class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+                    <img src="img/galeria/05.jpg" alt="">
+                </li>
+                <li class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+                    <img src="img/galeria/06.jpg" alt="">
+                </li>
+                <li class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+                    <img src="img/galeria/01.jpg" alt="">
+                </li>
+                <li class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+                    <img src="img/galeria/02.jpg" alt="">
+                </li>
+                <li class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+                    <img src="img/galeria/03.jpg" alt="">
+                </li>
+                <li class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+                    <img src="img/galeria/04.jpg" alt="">
+                </li>
+                <li class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+                    <img src="img/galeria/05.jpg" alt="">
+                </li>
+                <li class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+                    <img src="img/galeria/06.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+        
+        
+      
+      <!--/*=============================================
+      = EFECTO DE MOUSE  =
+      =============================================*/ -->
+
+      <h1 id="inicioMouse" class="row titulos">
+        <hr>
+            MOVIMIENTO CON EL MOUSE
+        <hr>
+      </h1>
+
+      
+      <div id="efectoMouse" class="row">
+
+        <figure></figure>
+        <figure></figure>
+        <figure></figure>
+      
+      </div>
+
+      <!--/*=============================================
+      = EFECTO SCROLL =
+      =============================================*/ -->
+
+      <h1 id="inicioScroll" class="row titulos">
+        <hr>
+            EFECTOS CON EL SCROLL
+        <hr>
+      </h1>
+
+      <div id="scroll">
+
+        <article class="row">
+            <aside class="col-lg-2 col-md-2 col-sm-1 col-xs-0">
+                <br>
+            </aside>
+            <aside class=" col-lg-8 col-md-8 col-sm-10 col-xs-12">
+                <figure class="col-lg-3 col-md-5 col-sm-6 col-xs-12">
+                    <img src="img/galeria/01.jpg" alt="">   
+                </figure>
+                <div class="col-lg-9 col-md-7 col-sm-6 col-xs-12">
+                    <h1>Lorem Ipsum</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam impedit veritatis, 
+                        ipsum ullam soluta nemo numquam, temporibus, corrupti asperiores necessitatibus 
+                        eius reprehenderit enim libero Dicta beatae nulla eos laborum doloremque.</p>
+                    <button>Leer mas</button>        
+                </div>
+            </aside>
+
+            <aside class="col-lg-2 col-md-2 col-sm-1 col-xs-0">
+              <br>
+            </aside>
+        </article>
+
+        <article class="row">
+            <aside class="col-lg-2 col-md-2 col-sm-1 col-xs-0">
+                <br>
+            </aside>
+            <aside class=" col-lg-8 col-md-8 col-sm-10 col-xs-12">
+                <figure class="col-lg-3 col-md-5 col-sm-6 col-xs-12">
+                    <img src="img/galeria/01.jpg" alt="">   
+                </figure>
+                <div class="col-lg-9 col-md-7 col-sm-6 col-xs-12">
+                    <h1>Lorem Ipsum</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam impedit veritatis, 
+                        ipsum ullam soluta nemo numquam, temporibus, corrupti asperiores necessitatibus 
+                        eius reprehenderit enim libero Dicta beatae nulla eos laborum doloremque.</p>
+                    <button>Leer mas</button>        
+                </div>
+            </aside>
+
+            <aside class="col-lg-2 col-md-2 col-sm-1 col-xs-0">
+              <br>
+            </aside>
+        </article>
+
+        <article class="row">
+            <aside class="col-lg-2 col-md-2 col-sm-1 col-xs-0">
+                <br>
+            </aside>
+            <aside class=" col-lg-8 col-md-8 col-sm-10 col-xs-12">
+                <figure class="col-lg-3 col-md-5 col-sm-6 col-xs-12">
+                    <img src="img/galeria/02.jpg" alt="">   
+                </figure>
+                <div class="col-lg-9 col-md-7 col-sm-6 col-xs-12">
+                    <h1>Lorem Ipsum</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam impedit veritatis, 
+                        ipsum ullam soluta nemo numquam, temporibus, corrupti asperiores necessitatibus 
+                        eius reprehenderit enim libero Dicta beatae nulla eos laborum doloremque.</p>
+                    <button>Leer mas</button>        
+                </div>
+            </aside>
+
+            <aside class="col-lg-2 col-md-2 col-sm-1 col-xs-0">
+              <br>
+            </aside>
+        </article>
+
+        <article class="row">
+            <aside class="col-lg-2 col-md-2 col-sm-1 col-xs-0">
+                <br>
+            </aside>
+            <aside class=" col-lg-8 col-md-8 col-sm-10 col-xs-12">
+                <figure class="col-lg-3 col-md-5 col-sm-6 col-xs-12">
+                    <img src="img/galeria/03.jpg" alt="">   
+                </figure>
+                <div class="col-lg-9 col-md-7 col-sm-6 col-xs-12">
+                    <h1>Lorem Ipsum</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam impedit veritatis, 
+                        ipsum ullam soluta nemo numquam, temporibus, corrupti asperiores necessitatibus 
+                        eius reprehenderit enim libero Dicta beatae nulla eos laborum doloremque.</p>
+                    <button>Leer mas</button>        
+                </div>
+            </aside>
+
+            <aside class="col-lg-2 col-md-2 col-sm-1 col-xs-0">
+              <br>
+            </aside>
+        </article>
+
+        <article class="row">
+            <aside class="col-lg-2 col-md-2 col-sm-1 col-xs-0">
+                <br>
+            </aside>
+            <aside class=" col-lg-8 col-md-8 col-sm-10 col-xs-12">
+                <figure class="col-lg-3 col-md-5 col-sm-6 col-xs-12">
+                    <img src="img/galeria/04.jpg" alt="">   
+                </figure>
+                <div class="col-lg-9 col-md-7 col-sm-6 col-xs-12">
+                    <h1>Lorem Ipsum</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam impedit veritatis, 
+                        ipsum ullam soluta nemo numquam, temporibus, corrupti asperiores necessitatibus 
+                        eius reprehenderit enim libero Dicta beatae nulla eos laborum doloremque.</p>
+                    <button>Leer mas</button>        
+                </div>
+            </aside>
+
+            <aside class="col-lg-2 col-md-2 col-sm-1 col-xs-0">
+              <br>
+            </aside>
+        </article>
+      </div>
+
+       <!--/*=============================================
+      = FORMULARIO =
+      =============================================*/ -->
+
+      <h1 id="inicioFormulario" class="row titulos">
+        <hr>
+            FORMULARIO
+        <hr>
+      </h1>
+
+      <div id="formulario" class="row">
+
+        <form method="post" action="formulario.php" onsubmit="return mf.validarFormulario()">
+
+            <h1>Ingrese sus datos</h1>
+
+            <label for="nombre">Ingrese su usuario:  <span class="obligatorio">*Campo Obligatorio</span></label>
+            <input type="text" class="validar"  name="nombre" id="nombre"  value="" placeholder="Escriba su usuario con minimo 2 caracteres" required>
+
+
+
+            <label for="password">Ingrese su contraseña: <span class="obligatorio">*Campo Obligatorio</span> </label>
+            <input type="password"  class="validar" name="password" id="password" value=""  placeholder="Escriba su contraseña con 
+            minimo 8 caracteres debe incluir letras en mayuscula minuscula y numero" maxlength="15" required>
+
+            <label for="email">Ingrese su correo: <span class="obligatorio">*Campo Obligatorio</span> </label>
+            <input type="email"  class="validar" name="email" id="email" value=""  placeholder="Escriba su correo valido" required>
+
+            <label for="color">Elija su color</label>
+            <select name="color" id="color">
+                <option value="">Seleccione</option>
+                <option value="">Amarillo</option>
+                <option value="">Rojo</option>
+                <option value="">Azul</option>
+            </select>
+
+            <br>
+            <hr>
+
+            <p> Seleccione Animal </p>
+            <input type="checkbox" name="perro" id="perro">
+            <label for="perro" class="box"><span></span>Perro</label>
+
+            <input type="checkbox" name="gato" id="gato">
+            <label for="gato" class="box"><span></span>Gato</label>
+
+            <input type="checkbox" name="conejo" id="conejo">
+            <label for="conejo" class="box"><span></span>Conejo</label>
+
+            <hr>
+
+            <p>Seleccione forma de pago: </p>
+
+            <input type="radio" name="pago" id="efectivo" checked>
+            <label for="efectivo" class="radio"><span></span>Efectivo</label>
+
+            <input type="radio" name="pago" id="credito">
+            <label for="credito" class="radio"><span></span>Credito</label>
+
+            <br>
+            <hr>
+
+            <label for="mensaje"></label>
+            <textarea id="mensaje" cols="30" rows="10" required></textarea>
+
+            <input type="checkbox" id="terminos">
+            <label for="terminos" class="box"><span></span><a href="archivo.pdf" target="_blank">Acepto terminos y condiciones</a></label>
+            <label id="labelEnviar"></label>
+            <input type="submit" value="Enviar">
+        </form>
+
+      </div>
+
+
+    </div>
+
+    <script src="js/slide.min.js"></script>
+    <script src="js/gallery.min.js"></script>
+    <script src="js/mouse.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/formulario.js"></script>
+    <script src="js/botonmovil.js"></script>
+</body>
+</html>

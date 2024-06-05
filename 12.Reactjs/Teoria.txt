@@ -1,0 +1,35 @@
+React 
+
+Es una Biblioteca-Libreria escrita en javascript, desarrollada por Facebook para facilitar la creacion de componentes interactivos,
+reutilizables, para interfaces de usuario. se utiliza en facebook para la produccion de componentes, Instagram está escrito enteramente
+en React.
+
+Te permite construir un proyecto por medio de componentes, header, nav, sidebar, section, articles
+parent component and child component
+dropbox esta hecho con React
+twitter esta hecho con React
+
+
+es una tecnologia liviana que sirve para hacer macro proyectos
+
+Caracteristicas de un componente
+1. Inicia en mayuscula y termina con la extension .js
+
+2. Siempre debe tener la importancia de React
+import React form "react"
+
+3. Un component siempre va a exportar y renderizar algo
+export default function App(){
+    return (<div>Hola mundo</div>);
+}
+
+React es muy hipermeable por eso todo se debe de importar y las clases se deben usar con la sintaxis de react
+
+bootstrap en react
+nos dirigimos a la pagina de bootstrap
+usamos el comando npm i react-bootstrap bootstrap
+
+Props tecnica para compartir informacion entre componentes de react, prop usa objeto JS con propiedades y valores
+
+HOOKS: permite crear componentes funcionales y podras controlar el estado state de una variable a traves de eventos
+son props con acciones

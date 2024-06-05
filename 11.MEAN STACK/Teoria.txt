@@ -1,0 +1,24 @@
+M.E.A.N. SATCK
+
+MongoDB Express Angular NodeJS
+
+
+lado cliente: Angular
+peticiones http: NodeJS, Express
+Base de datos: NodeJS, MongoDB
+
+un proyecto que conlleva esos 4 sistemas o herramientas es llamado MEAN
+
+
+CORS Cross Origin Resources Shring CORS: es un mecanismo de HTTP para las cabeceras que permite al servidor 
+indicar el origen (dominios, esquemas, puertos) que no sean los suyos de los cuales el navegador va a permitir descargar recursos
+
+distintos origenes: distintos servidores
+
+los CORS se usan en el servidor, y se solucionan del lado del servidor, tambien se conoce como control de acceso
+
+
+Paquete mongoose-unique-validator, es un complemento que agrega validacion previa al guardado para compos unicos dentro de un esquema
+mongoose
+
+usamos el comando npm i mongoose-unique-validator

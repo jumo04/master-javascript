@@ -1,0 +1,64 @@
+
+Empleabilidad:
+            - Design systems - Storybooks
+            - Tailwind
+            - Node.js
+            - CSS
+            - Next.js o nuxt
+            - la triologia react, angular, y vue.js
+            - Nativamente manejar objetos y arrays en js
+            - testing 
+            - playwright e2e end to end
+            - jest o vitest
+            - cypress e2e
+            - github options
+            - jenkis
+            - git
+            - HTML, javascript, CSS, javascript es el lenguaje mas demandado python, typescript, java, c#, php
+            - AWS(EC2, s3, lambda, )
+            - Azure open ai dialogflow.
+
+
+Sueldo: 
+        - Arquitectura CSS, BEN, SUIT, ATOMIC
+        - Atomic Design
+        - BFF(backend for frontend)
+        - PWA
+        - Just
+        - Testing visual
+        - Testing Cross Browser(lo hace playwright)
+        - Browserstack
+        - testing api de contratos(PACT)
+        - CI/CD continuos integration continuos deployment
+        - Accesibilidad (axe-core para react)
+        - Web Performance(flame graph),
+        - supabase
+        - three.js
+        - nest.js
+        - fastify
+        - Kubernetes
+        - SQL
+        - Postgresl 
+
+
+Promesas futuras: Astro, Deno, panda css remix, deno deploy, Bun, web assembly, solid.js hono(es una alternativa a express pero no le veo), 
+                  ELYSIAJS, IA open source, SQLite
+
+
+Ya no va: - ionic
+          - lodash
+          - bootstrap, bulma styled component css, js
+          - SASS
+          - LESS
+          - grahql
+          - svelt
+          - AM
+          - gatsby
+          - Firebase
+          - express(sigue siendo importante saberlo)
+          - MongoDB
+
+tailwaindcss
+
+
+shadcn 

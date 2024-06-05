@@ -1,0 +1,37 @@
+Un paradigma de programacion que usa objetos en sus interacciones para sdisel;ar aplicaciones  programas informaticos esta basado en varias tecnicas herencia cohesion abstraccion 
+imperativo codigo spaguetti o programacion orientada a objetos
+
+una esclara de herencia, no se escribe como si fuera una chorrera de codigo, exige que te sientes a analizar lo que vas a hacer con tu codigo
+
+Integrar para realizar aplicaciones mas complejas
+
+angular, typescript
+
+he programado con las dos
+
+/**COMPONENTES MAS IMPORTANTES**/
+
+Clases: 
+
+galgo
+dogo
+alano
+podenco
+
+a > g,  p > g, a < d, d > p
+
+6
+
+
+ab ni coche ni avion
+ad va en avion 
+tc coche
+
+a < r, c > r,
+
+
+
+
+
+
+A travez de la secretaria de salud, y la dirección tenologica se proporcionaran recursos tecnologicos que ayuden a optimizar  y recortar los tiempos en la atención, y mejorar la calidad en salud a travez de aplicaciones moviles y webs que impulsen el desarrollo sostenible y tecnologico de nuestro municipio.

@@ -1,0 +1,86 @@
+NPM: Node package manager, es un gestor de pquetes desarrollado en su totalidad bajo el lenguaje javascript
+a traves del cual podemos obtener cualquier libreria con tan solo una sencilla linea de codigo, lo cual nos prmitira agregar
+dependencias de forma simple distribuir paquetes y administrar efizarmente tanto los modulos como el proyecto a desarrollar
+
+primero hacer un npm init
+lugo crear un app.js o index.js
+luego npm install
+
+Que es un API RESTFUL: diferencias, se le agrega mas peticiones http como post o put o REST solo se hace con get?
+API(Interfaz de programacion de aplicaciones)
+Representational State transfer
+Interfaz de aplicaciones para tranferir datos
+
+Se usa la RESTFUL para empresas en que sus datos sean cambiantes
+
+Caracteristicas: 
+ - Son desarrolladas de programadores para programadores
+ - Existen publicas y privadas
+ - Gratuitas y pagas.
+ - APIs estan protegidas con tokens de seguridad
+ - Lenguajes web para contruir apis: php, java, spring boot, python, nodejs
+ - Es indispensable crear una documentacion para su uso. donde explique donde se puede conectar esa api
+
+Status: Son los codigos de estado que devuelve una respuesta para identificar el resultado de la peticion
+
+        1xx: son informacionales
+        2xx: respuesta de exito
+        3xx: redireccionamiento
+        4xx: estados de error del cliente, no encuentra el archivo o no existen
+        5xx: errores por parte del servidor
+
+
+POSTMAN: prefiero usar una que este en visual studio code que se llama restClient.
+
+Express es un marco de apliccion web nodejs minimo y flexible que proporciona un conjunto robusto de Caracteristicas
+para desarrollar aplicaciones web y moviles. facilita el rapido desarrollo de aplicaciones web basadas en nodos
+
+
+MONGODB: es un sistema de base de datos nosql orientado a documentos, desarrollando bajo el concepto de codigo abierto
+
+
+MongoDB forma parte de la familia de sistemas de base de datos nosql, en lugar de guardarlos en tablas se guarda en una estructura de datos similares a un JSON
+con un esquema dinamico mongoDB utiliza una especificacion llama BSON JSON BINARIO HACIENDO QUE LA INTEGRACION DE LOS DATOS EN CIERTAS APLICACIONES 
+sea mas facil y rapida
+
+Tiene la capacidad de hacer consultas utilizando javascript sin necesidad de utilizar ningun otro lenguaje de lado del servidor como por ejemplo .nt
+
+Adecuada para siguientes usos.
+Almacenamiento de resitros y eventos
+para sistemas de manejon de documentos y contenido
+comercio electronico
+juegos 
+problemas de alto volumen de lecturas
+aplicaciones moviles
+almacen de datos operacional de una pagina web
+manejo de contenido
+almacenamiento de comentarios
+votaciones()
+registro de usuarios
+perfiles de usuarios
+sesiones de datos
+
+
+Las colecciones en la base de datos se deben especificar en plural siempre
+
+para importar archivos utilizamos el comando de express-fileupload
+e instalamos su paquetes
+npm install --save express-fileupload
+
+
+FS: o file system viene por defecto en nodejs para ejecutar funciones como eliminar archivos
+fs
+
+CRUD: este es el crud de un modelo, usando estas peticiones (POST, GET, PUT, DELETE)
+
+
+para proteger la informacion usamos bcrypt para encruptar la contrasea
+siempre estar muy pendiente de las versiones y la compatibilidad entre ellas, esto se vuelve muy importante 
+
+nmp i bcrypt
+
+usamos jsonwebtoken para crear tokens al iniciar sesiones
+
+que es un token, es un codigo codificado con 3 cabeceras header, payload, secret firm.
+
+

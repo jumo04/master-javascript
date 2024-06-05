@@ -1,0 +1,21 @@
+GET http://localhost:4000/slide/mostrar-slides
+
+
+#### GET Galeria
+GET http://localhost:4000/gallery/mostrar-galerias
+
+##### GET Article
+GET http://localhost:4000/article/mostrar-articulos
+
+##### POST
+POST http://localhost:4000/slide/create
+Content-Type: application/json
+
+{
+    "imagen": "../assets/img/slide/slide04.jpg",
+    "titulo": "Lorem ipsum 10.",
+    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+}
+
+########## ELIMINAR REGISTRO
+DELETE http://localhost:4000/slide/eliminar/6632b322ae9f5d42840b0b84

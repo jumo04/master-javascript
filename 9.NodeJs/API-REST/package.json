@@ -1,0 +1,22 @@
+{
+  "name": "api-rest",
+  "version": "1.0.0",
+  "description": "Una api rest para el curso de udemy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Fernando Moreno",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mkdirp": "^1.0.3",
+    "mongoose": "^5.9.3",
+    "nodemon": "^3.1.0",
+    "rimraf": "^3.0.2"
+  }
+}
