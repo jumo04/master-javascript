@@ -1,0 +1,12 @@
+<div class="container-fluid bg-white" id="gallery">
+    <h2 class="text-uppercase py-3 text-muted text-center">galeria de imagenes</h2>
+    <section class="pinterest-grid">
+
+        <article class="white-panel" *ngFor="let image of images; let ultimo = last"> 
+            <a href="{{ image.foto }}" data-toggle="lightbox" data-gallery="example-gallery" data-type="image">
+                <img src="{{ image.foto }}" alt="ALT" class="img-fluid">
+            </a>
+            {{ ultimo ? callbackFunction() : '' }}
+        </article>
+    </section>
+</div>

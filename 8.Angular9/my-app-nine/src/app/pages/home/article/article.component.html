@@ -1,0 +1,20 @@
+<div class="container-fluid" id="article">
+    <h2 class="text-uppercase py-3 text-muted text-center  bg-white">Articulo</h2>
+    <div class="container my-5">
+        <div class="row border my-3 bg-white" *ngFor="let article of articles; let ultimo = last">
+            <figure class="col-md-5 col-lg-4 col-xl-3 p-2 mb-0">
+                <img src="{{ article.portada }}" alt="" class="img-fluid">
+            </figure>
+
+            <div class="col-md-7 col-lg-8 col-xl-9 p-4">
+                <h2>{{ article.titulo }}</h2>
+                <p>{{ article.intro }}
+                </p>
+
+                <button class="btn btn-dark btn-sm float-right"  routerLink="/articulo/{{ article.url }}" routerLinkActive="router-link-active" >Leer mas</button>
+            </div>
+            {{ ultimo ? callbackFunction() : '' }}
+        </div>
+        
+    </div>
+</div>

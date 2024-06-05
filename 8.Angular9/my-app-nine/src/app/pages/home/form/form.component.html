@@ -1,0 +1,96 @@
+<div class="container-fluid p-0 bg-white" id="form">
+    <h2 class="text-uppercase pt-5 text-muted text-center">Validacion del formulario</h2>
+
+    <div class="container">
+        <form action="/formulario.php" class="bg-light p-4 needs-validation" novalidate>
+            <h4 class="bg-dark text-white text-center p-2">Ingrese los datos</h4>
+
+            <div class="form-group">
+                <label for="usuario">Ingrese su usuario</label>
+                <input type="text" id="usuario" class="form-control" placeholder="Escriba su usuario con mínimo 2 caracteres, máximo 6 caracteres sin usar números" minlength="2" maxlength="6" pattern="(?=.*[A-Za-z]).{2,6}" required>
+
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+
+            <div class="form-group">
+                <label for="usuario">Ingrese su contrase</label>
+                <input type="password" name="password" id="password" class="form-control" 
+                placeholder="Escriba su contrasena" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Enter your email</label>
+                <input type="email" name="email" id="user" class="form-control" placeholder="Please text your valid email address" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+
+            <div class="form-group">
+                <label for="color">Choose color:</label>
+                <select name="color" id="color" class="form-control" required>
+                    <option value="">Choose wisely</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="blue">Blue</option>
+                    <option value="red">Red</option>
+                </select>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+
+            <div class="form-group">
+                <label>Choose Animal</label>
+                <div class="form-check">
+                    <label for="dog" class="form-check-label">
+                        <input type="checkbox" name="dog" class="form-check-input icheck">Dog
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label for="dog" class="form-check-label">
+                        <input type="checkbox" name="cat" class="form-check-input icheck">Cat
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label for="dog" class="form-check-label">
+                        <input type="checkbox" name="Rabbit" class="form-check-input icheck">Rabbit
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Payment Method</label>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" name="Cash" class="form-check-input icheck" checked required>Cash
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label for="dog" class="form-check-label">
+                        <input type="radio" name="Cash" class="form-check-input icheck" required>Credit
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Message</label>
+                <textarea class="form-control" name="" id="msg" cols="30" rows="5"></textarea>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+
+
+            <div class="form-group">
+                <label class="form-check-label" style="margin-left: 1vw;">
+                    <input type="checkbox" class="form-check-input terminos" name="" id="" required>
+                    <span class="check"></span>Acept conditions and terms.
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                </label>
+            </div>
+
+            <button type="submit" class="btn-block btn-primary btn">Enviar</button>
+        </form>
+    </div>
+</div>
