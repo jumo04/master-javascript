@@ -9,7 +9,7 @@ function saludo(){
 //Ejecutamos la funcion
 saludo();
 
-function operacion(){
+function operacion(digito1, digito2){
 
     var resultado = digito1 + digito2;
     console.log("resultado", resultado);

@@ -59,7 +59,7 @@ let get_destino =  id => {
     });
 }
 
-// Segunda tarea: servervar el dia
+// Segunda tarea: reservar el dia
 
 let get_dia =  id => {
     return new Promise((resolve, reject) => {
@@ -72,7 +72,7 @@ let get_dia =  id => {
     });
 }
 
-// Tercera tarea: servervar el dia
+// Tercera tarea: reservar el asiento
 
 let get_asiento =  id => {
     return new Promise((resolve, reject) => {

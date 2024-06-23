@@ -84,3 +84,8 @@ usamos jsonwebtoken para crear tokens al iniciar sesiones
 que es un token, es un codigo codificado con 3 cabeceras header, payload, secret firm.
 
 
+ORM: es un model de programacion que permite mapear las estructuras de una base de datos
+mapping relational model
+squelize
+
+ODM object document model empleados para bases de datos nosql
